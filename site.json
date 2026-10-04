@@ -1,0 +1,340 @@
+{
+  "tr": {
+    "rules": [
+      "Hile, script veya oyuna haksız avantaj sağlayan herhangi bir yazılım kullanmak kesinlikle yasaktır ve kalıcı ban ile sonuçlanır.",
+      "Küfür, hakaret, ırkçılık ve ayrımcılık içeren söylemler yasaktır.",
+      "Sesli ve yazılı sohbette spam yapmak, müzik açmak veya rahatsız edici sesler çıkarmak yasaktır.",
+      "Başka sunucu, site veya toplulukların reklamını yapmak yasaktır.",
+      "Bug ve hataları kötüye kullanmak yasaktır; tespit ettiğin hataları yetkililere bildir.",
+      "Yetkili taklidi yapmak veya kendini admin olarak tanıtmak yasaktır.",
+      "Diğer oyunculara ve yetkililere saygılı ol.",
+      "Hesap paylaşımı sonucu oluşan cezalardan hesap sahibi sorumludur."
+    ],
+    "silence": [
+      {
+        "reason": "Spam & Ses Programı",
+        "duration": "6 Saat",
+        "time": "6h"
+      },
+      {
+        "reason": "Saygısızlık & Kışkırtma",
+        "duration": "6 Saat",
+        "time": "6h"
+      },
+      {
+        "reason": "Şahsi Küfür",
+        "duration": "1 Gün",
+        "time": "1d"
+      },
+      {
+        "reason": "İzleme (Ghosting)",
+        "duration": "3 Gün",
+        "time": "3d"
+      },
+      {
+        "reason": "Ağır Küfür & Irkçılık",
+        "duration": "5 Gün",
+        "time": "5d"
+      },
+      {
+        "reason": "Reklam",
+        "duration": "Kalıcı",
+        "time": "0"
+      }
+    ],
+    "ban": [
+      {
+        "reason": "Rapor Spamı",
+        "duration": "3 Saat",
+        "time": "3h"
+      },
+      {
+        "reason": "Sportmenlik Dışı",
+        "duration": "12 Saat",
+        "time": "12h"
+      },
+      {
+        "reason": "Oyuncu Çekmek",
+        "duration": "3 Gün",
+        "time": "3d"
+      },
+      {
+        "reason": "Yetkili Taklidi & Yanıltma",
+        "duration": "5 Gün",
+        "time": "5d"
+      },
+      {
+        "reason": "Dolandırıcılık",
+        "duration": "7 Gün",
+        "time": "7d"
+      },
+      {
+        "reason": "Bug & Açık Kullanımı",
+        "duration": "14 Gün",
+        "time": "14d"
+      },
+      {
+        "reason": "Hesap Paylaşımı",
+        "duration": "1 Ay",
+        "time": "30d"
+      },
+      {
+        "reason": "Ban / Mute Atlatma",
+        "duration": "Kalıcı",
+        "time": "0"
+      },
+      {
+        "reason": "Hile (3. Parti Yazılım)",
+        "duration": "Kalıcı",
+        "time": "0"
+      }
+    ],
+    "vip": [
+      {
+        "price": 200,
+        "month": 1,
+        "text": [
+          "Tüm sunucularda geçerli",
+          "Özel VIP tag",
+          "Rezerve slot",
+          "Öncelikli destek",
+          "Reklamları kaldırma",
+          "Ve daha birçok özellik..."
+        ]
+      },
+      {
+        "price": 600,
+        "month": 3,
+        "text": [
+          "Tüm sunucularda geçerli",
+          "Özel VIP tag",
+          "Rezerve slot",
+          "Öncelikli destek",
+          "3 ay kesintisiz erişim",
+          "Reklamları kaldırma",
+          "Ve daha birçok özellik..."
+        ]
+      },
+      {
+        "price": 1200,
+        "discouıt": 200,
+        "month": 6,
+        "text": [
+          "Tüm sunucularda geçerli",
+          "Özel VIP tag",
+          "Rezerve slot",
+          "Öncelikli destek",
+          "6 ay kesintisiz erişim",
+          "%17 indirimli fiyat",
+          "Reklamları kaldırma",
+          "Ve daha birçok özellik..."
+        ]
+      }
+    ]
+  },
+  "en": {
+    "rules": [
+      "Using cheats, scripts or any software that gives an unfair advantage is strictly forbidden and results in a permanent ban.",
+      "Swearing, insults, racism and discriminatory language are forbidden.",
+      "Spamming voice or text chat, playing music or making disruptive noises is forbidden.",
+      "Advertising other servers, websites or communities is forbidden.",
+      "Abusing bugs is forbidden; report any bug you find to the staff.",
+      "Impersonating staff or presenting yourself as an admin is forbidden.",
+      "Be respectful to other players and staff.",
+      "Account owners are responsible for penalties caused by account sharing."
+    ],
+    "silence": [
+      {
+        "reason": "Spam & Soundboard",
+        "duration": "6 Hours"
+      },
+      {
+        "reason": "Disrespect & Provocation",
+        "duration": "6 Hours"
+      },
+      {
+        "reason": "Personal Insults",
+        "duration": "1 Day"
+      },
+      {
+        "reason": "Ghosting",
+        "duration": "3 Days"
+      },
+      {
+        "reason": "Severe Insults & Racism",
+        "duration": "5 Days"
+      },
+      {
+        "reason": "Advertising",
+        "duration": "Permanent"
+      }
+    ],
+    "ban": [
+      {
+        "reason": "Report Spam",
+        "duration": "3 Hours"
+      },
+      {
+        "reason": "Unsportsmanlike Conduct",
+        "duration": "12 Hours"
+      },
+      {
+        "reason": "Player Poaching",
+        "duration": "3 Days"
+      },
+      {
+        "reason": "Staff Impersonation & Deception",
+        "duration": "5 Days"
+      },
+      {
+        "reason": "Scamming",
+        "duration": "7 Days"
+      },
+      {
+        "reason": "Bug & Exploit Abuse",
+        "duration": "14 Days"
+      },
+      {
+        "reason": "Account Sharing",
+        "duration": "1 Month"
+      },
+      {
+        "reason": "Ban / Mute Evasion",
+        "duration": "Permanent"
+      },
+      {
+        "reason": "Cheating (Third-Party Software)",
+        "duration": "Permanent"
+      }
+    ],
+    "vip": [
+      {
+        "price": 200,
+        "month": 1,
+        "text": [
+          "Valid on all servers",
+          "Exclusive VIP tag",
+          "Reserved slot",
+          "Priority support",
+          "No ads",
+          "And many more features"
+        ]
+      },
+      {
+        "price": 600,
+        "month": 3,
+        "text": [
+          "Valid on all servers",
+          "Exclusive VIP tag",
+          "Reserved slot",
+          "Priority support",
+          "3 months uninterrupted access",
+          "No ads",
+          "And many more features"
+        ]
+      },
+      {
+        "price": 1200,
+        "discouıt": 200,
+        "month": 6,
+        "text": [
+          "Valid on all servers",
+          "Exclusive VIP tag",
+          "Reserved slot",
+          "Priority support",
+          "6 months uninterrupted access",
+          "17% discounted price",
+          "No ads",
+          "And many more features"
+        ]
+      }
+    ]
+  },
+  "servers": [
+    {
+      "id": "Pro/Pub",
+      "ip": "185.171.25.71:27015",
+      "type": "Pro/Pub"
+    },
+    {
+      "id": "Retake #1",
+      "ip": "185.171.25.81:27015",
+      "type": "Retake"
+    },
+    {
+      "id": "Retake #2",
+      "ip": "185.171.25.82:27015",
+      "type": "Retake"
+    },
+    {
+      "id": "Retake #3",
+      "ip": "185.171.25.83:27015",
+      "type": "Retake"
+    },
+    {
+      "id": "Retake #4",
+      "ip": "185.171.25.84:27015",
+      "type": "Retake"
+    },
+    {
+      "id": "Retake #5",
+      "ip": "185.171.25.85:27015",
+      "type": "Retake"
+    },
+    {
+      "id": "Retake #6",
+      "ip": "185.171.25.86:27015",
+      "type": "Retake"
+    },
+    {
+      "id": "Retake #7",
+      "ip": "",
+      "type": "Retake"
+    },
+    {
+      "id": "AWP",
+      "ip": "185.171.25.77:27015",
+      "type": "AWP"
+    },
+    {
+      "id": "Arena 1v1",
+      "ip": "185.171.25.72:27015",
+      "type": "Arena"
+    },
+    {
+      "id": "Random Skills",
+      "ip": "185.171.25.78:27015",
+      "type": "Random Skills"
+    },
+    {
+      "id": "Deathmatch",
+      "ip": "185.171.25.75:27015",
+      "type": "Deathmatch"
+    },
+    {
+      "id": "Surf Timer | Tier 1-2",
+      "ip": "185.171.25.76:27015",
+      "type": "Surf"
+    },
+    {
+      "id": "Surf Timer | Tier 3-4",
+      "ip": "185.171.25.79:27015",
+      "type": "Surf"
+    },
+    {
+      "id": "Bhop Timer",
+      "ip": "185.171.25.74:27015",
+      "type": "Bhop"
+    },
+    {
+      "id": "KZ Climb",
+      "ip": "185.171.25.13:27015",
+      "type": "KZ Climb"
+    },
+    {
+      "id": "Zombie Escape",
+      "ip": "",
+      "type": "Zombie Escape"
+    }
+  ]
+}
