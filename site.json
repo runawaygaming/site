@@ -1,4 +1,12 @@
 {
+  "url": "https://runawaytr.com/",
+  "forum": "https://forum.runawaytr.com/",
+  "discord": "https://discord.gg/runaway",
+  "tiktok": "https://www.tiktok.com/@runawaycs2",
+  "instagram": "https://www.instagram.com/runawaygaming",
+  "twitter": "https://x.com/runaway_gaming",
+  "steam": "https://steamcommunity.com/groups/RunAwayGaming",
+  "teamspeak": "ts.runawaytr.com",
   "tr": {
     "rules": [
       "Hile, script veya oyuna haksız avantaj sağlayan herhangi bir yazılım kullanmak kesinlikle yasaktır ve kalıcı ban ile sonuçlanır.",
@@ -146,65 +154,80 @@
     "silence": [
       {
         "reason": "Spam & Soundboard",
-        "duration": "6 Hours"
+        "duration": "6 Hours",
+        "time": "6h"
       },
       {
         "reason": "Disrespect & Provocation",
-        "duration": "6 Hours"
+        "duration": "6 Hours",
+        "time": "6h"
       },
       {
         "reason": "Personal Insults",
-        "duration": "1 Day"
+        "duration": "1 Day",
+        "time": "1d"
       },
       {
         "reason": "Ghosting",
-        "duration": "3 Days"
+        "duration": "3 Days",
+        "time": "3d"
       },
       {
         "reason": "Severe Insults & Racism",
-        "duration": "5 Days"
+        "duration": "5 Days",
+        "time": "5d"
       },
       {
         "reason": "Advertising",
-        "duration": "Permanent"
+        "duration": "Permanent",
+        "time": "0"
       }
     ],
     "ban": [
       {
         "reason": "Report Spam",
-        "duration": "3 Hours"
+        "duration": "3 Hours",
+        "time": "3h"
       },
       {
         "reason": "Unsportsmanlike Conduct",
-        "duration": "12 Hours"
+        "duration": "12 Hours",
+        "time": "12h"
       },
       {
         "reason": "Player Poaching",
-        "duration": "3 Days"
+        "duration": "3 Days",
+        "time": "3d"
       },
       {
         "reason": "Staff Impersonation & Deception",
-        "duration": "5 Days"
+        "duration": "5 Days",
+        "time": "5d"
       },
       {
         "reason": "Scamming",
-        "duration": "7 Days"
+        "duration": "7 Days",
+        "time": "7d"
       },
       {
         "reason": "Bug & Exploit Abuse",
-        "duration": "14 Days"
+        "duration": "14 Days",
+        "time": "14d"
       },
       {
         "reason": "Account Sharing",
-        "duration": "1 Month"
+        "duration": "1 Month",
+        "time": "30d"
       },
       {
         "reason": "Ban / Mute Evasion",
-        "duration": "Permanent"
+        "duration": "Permanent",
+        "time": "0"
       },
       {
         "reason": "Cheating (Third-Party Software)",
-        "duration": "Permanent"
+        "duration": "Permanent",
+        "time": "0"
       }
     ],
     "vip": [
