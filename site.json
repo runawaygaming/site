@@ -138,6 +138,12 @@
           "Ve daha birçok özellik..."
         ]
       }
+    ],
+    "report": [
+      "Hile",
+      "Küfür/Hakaret",
+      "Oyunbozanlık",
+      "Özel Sebep"
     ]
   },
   "en": {
@@ -271,6 +277,12 @@
           "And many more features"
         ]
       }
+    ],
+    "report": [
+      "Cheating",
+      "Insults",
+      "Griefing",
+      "Custom reason"
     ]
   },
   "servers": [
