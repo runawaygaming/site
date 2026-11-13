@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "message": " \n{GREEN}runawaytr.com {WHITE}sitesinden skin seçip oyun içinde !wp yazarak skin ve bıçak alabilirsiniz!\n ",
+    "server_mode": "all",
+    "map": null,
+    "interval_seconds": 60,
+    "view_flag": "all",
+    "exclude_flag": null,
+    "disable_sound": 1,
+    "disable_order": 0,
+    "play_sound_name": null,
+    "trigger_ad": [
+      "skin"
+    ],
+    "display_type": 0,
+    "on_dead": 0,
+    "position_x": null,
+    "position_y": null,
+    "only_in_warmup": 0,
+    "only_spec": 0,
+    "disable_interval": 0
+  },
+  {
+    "id": 2,
+    "message": " \n {RED}Ayrıcalıklardan yararlanmak için web sitemizden VIP alın: {GREEN} www.runawaytr.com\n ",
+    "server_mode": "all",
+    "map": null,
+    "interval_seconds": 60,
+    "view_flag": "all",
+    "exclude_flag": null,
+    "disable_sound": 1,
+    "disable_order": 0,
+    "play_sound_name": null,
+    "trigger_ad": [],
+    "display_type": 0,
+    "on_dead": 0,
+    "position_x": null,
+    "position_y": null,
+    "only_in_warmup": 0,
+    "only_spec": 0,
+    "disable_interval": 0
+  },
+  {
+    "id": 3,
+    "message": "\n {RED}RUNAWAY | {WHITE} {hostname} Sunucusu\n  {GREEN}IP: {WHITE} {ip}\n",
+    "server_mode": "all",
+    "map": null,
+    "interval_seconds": 60,
+    "view_flag": "all",
+    "exclude_flag": null,
+    "disable_sound": 1,
+    "disable_order": 0,
+    "play_sound_name": null,
+    "trigger_ad": [
+      "ip"
+    ],
+    "display_type": 0,
+    "on_dead": 0,
+    "position_x": null,
+    "position_y": null,
+    "only_in_warmup": 0,
+    "only_spec": 0,
+    "disable_interval": 0
+  },
+  {
+    "id": 4,
+    "message": " \n {RED}✔ Discord sunucumuzdan ADMIN başvurusu yapabilirsiniz!\n{GOLD}» Discord: {GREEN} discord.gg/runaway\n ",
+    "server_mode": "all",
+    "map": null,
+    "interval_seconds": 60,
+    "view_flag": "all",
+    "exclude_flag": null,
+    "disable_sound": 1,
+    "disable_order": 0,
+    "play_sound_name": null,
+    "trigger_ad": [
+      "admin"
+    ],
+    "display_type": 0,
+    "on_dead": 0,
+    "position_x": null,
+    "position_y": null,
+    "only_in_warmup": 0,
+    "only_spec": 0,
+    "disable_interval": 0
+  },
+  {
+    "id": 6,
+    "message": " \n {RED}★ Sunucularımızın tamamında geçerli VIP üyelik aylık sadece 200 TL! \n{GREEN} www.runawaytr.com\n ",
+    "server_mode": "all",
+    "map": null,
+    "interval_seconds": 60,
+    "view_flag": "all",
+    "exclude_flag": null,
+    "disable_sound": 1,
+    "disable_order": 0,
+    "play_sound_name": null,
+    "trigger_ad": [
+      "vip"
+    ],
+    "display_type": 0,
+    "on_dead": 0,
+    "position_x": null,
+    "position_y": null,
+    "only_in_warmup": 0,
+    "only_spec": 0,
+    "disable_interval": 0
+  },
+  {
+    "id": 7,
+    "message": " \n {RED}» Discord: {WHITE} discord.gg/runaway\n ",
+    "server_mode": "all",
+    "map": null,
+    "interval_seconds": 60,
+    "view_flag": "all",
+    "exclude_flag": null,
+    "disable_sound": 1,
+    "disable_order": 0,
+    "play_sound_name": null,
+    "trigger_ad": [
+      "discord",
+      "dc"
+    ],
+    "display_type": 0,
+    "on_dead": 0,
+    "position_x": null,
+    "position_y": null,
+    "only_in_warmup": 0,
+    "only_spec": 0,
+    "disable_interval": 0
+  }
+]
