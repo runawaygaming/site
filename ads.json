@@ -1,133 +1,463 @@
-[
-  {
-    "id": 1,
-    "message": " \n{GREEN}runawaytr.com {WHITE}sitesinden skin seçip oyun içinde !wp yazarak skin ve bıçak alabilirsiniz!\n ",
-    "server_mode": "all",
-    "map": null,
-    "interval_seconds": 60,
-    "view_flag": "all",
-    "exclude_flag": null,
-    "disable_sound": 1,
-    "disable_order": 0,
-    "play_sound_name": null,
-    "trigger_ad": [
-      "skin"
-    ],
-    "display_type": 0,
-    "on_dead": 0,
-    "position_x": null,
-    "position_y": null,
-    "only_in_warmup": 0,
-    "only_spec": 0,
-    "disable_interval": 0
+{
+  "messages": [
+    {
+      "id": 1,
+      "msg": " \n{GREEN}runawaytr.com {WHITE}sitesinden skin seçip oyun içinde !wp yazarak skin ve bıçak alabilirsiniz!\n ",
+      "ip": "",
+      "cmd": "skin",
+      "immune": "",
+      "delay": 40
+    },
+    {
+      "id": 2,
+      "msg": " \n{GREEN}TRADEIT {WHITE}| {GOLD}RUNAWAY {WHITE}kodunu kullan, {GREEN}$5.00 BONUS {WHITE}kazan! {GREEN}tradeit.gg\n{GREEN}TRADEIT {WHITE}| Use code {GOLD}RUNAWAY {WHITE}for a {GREEN}$5.00 BONUS{WHITE}! {GREEN}tradeit.gg\n ",
+      "ip": "",
+      "cmd": "tradeit",
+      "immune": "@css/vip",
+      "delay": 60
+    },
+    {
+      "id": 3,
+      "msg": " \n {RED}Ayrıcalıklardan yararlanmak için web sitemizden VIP alın: {GREEN} www.runawaytr.com\n ",
+      "ip": "",
+      "cmd": "",
+      "immune": "",
+      "delay": 40
+    },
+    {
+      "id": 4,
+      "msg": "\n {RED}RUNAWAY | {WHITE} {hostname} Sunucusu\n  {GREEN}IP: {WHITE} {ip}\n",
+      "ip": "",
+      "cmd": "ip",
+      "immune": "",
+      "delay": 40
+    },
+    {
+      "id": 5,
+      "msg": " \n {RED}✔ Discord sunucumuzdan ADMIN başvurusu yapabilirsiniz!\n{GOLD}» Discord: {GREEN} discord.gg/runaway\n ",
+      "ip": "",
+      "cmd": "admin",
+      "immune": "",
+      "delay": 40
+    },
+    {
+      "id": 6,
+      "msg": " \n {RED}★ Sunucularımızın tamamında geçerli VIP üyelik aylık sadece 200 TL! \n{GREEN} www.runawaytr.com\n ",
+      "ip": "",
+      "cmd": "vip",
+      "immune": "",
+      "delay": 40
+    },
+    {
+      "id": 7,
+      "msg": " \n {RED}» Discord: {WHITE} discord.gg/runaway\n ",
+      "ip": "",
+      "cmd": "discord,dc",
+      "immune": "",
+      "delay": 40
+    }
+  ],
+  "hud": {
+    "enabled": true,
+    "ip": "",
+    "immune": "@css/vip"
   },
-  {
-    "id": 2,
-    "message": " \n {RED}Ayrıcalıklardan yararlanmak için web sitemizden VIP alın: {GREEN} www.runawaytr.com\n ",
-    "server_mode": "all",
-    "map": null,
-    "interval_seconds": 60,
-    "view_flag": "all",
-    "exclude_flag": null,
-    "disable_sound": 1,
-    "disable_order": 0,
-    "play_sound_name": null,
-    "trigger_ad": [],
-    "display_type": 0,
-    "on_dead": 0,
-    "position_x": null,
-    "position_y": null,
-    "only_in_warmup": 0,
-    "only_spec": 0,
-    "disable_interval": 0
-  },
-  {
-    "id": 3,
-    "message": "\n {RED}RUNAWAY | {WHITE} {hostname} Sunucusu\n  {GREEN}IP: {WHITE} {ip}\n",
-    "server_mode": "all",
-    "map": null,
-    "interval_seconds": 60,
-    "view_flag": "all",
-    "exclude_flag": null,
-    "disable_sound": 1,
-    "disable_order": 0,
-    "play_sound_name": null,
-    "trigger_ad": [
-      "ip"
-    ],
-    "display_type": 0,
-    "on_dead": 0,
-    "position_x": null,
-    "position_y": null,
-    "only_in_warmup": 0,
-    "only_spec": 0,
-    "disable_interval": 0
-  },
-  {
-    "id": 4,
-    "message": " \n {RED}✔ Discord sunucumuzdan ADMIN başvurusu yapabilirsiniz!\n{GOLD}» Discord: {GREEN} discord.gg/runaway\n ",
-    "server_mode": "all",
-    "map": null,
-    "interval_seconds": 60,
-    "view_flag": "all",
-    "exclude_flag": null,
-    "disable_sound": 1,
-    "disable_order": 0,
-    "play_sound_name": null,
-    "trigger_ad": [
-      "admin"
-    ],
-    "display_type": 0,
-    "on_dead": 0,
-    "position_x": null,
-    "position_y": null,
-    "only_in_warmup": 0,
-    "only_spec": 0,
-    "disable_interval": 0
-  },
-  {
-    "id": 6,
-    "message": " \n {RED}★ Sunucularımızın tamamında geçerli VIP üyelik aylık sadece 200 TL! \n{GREEN} www.runawaytr.com\n ",
-    "server_mode": "all",
-    "map": null,
-    "interval_seconds": 60,
-    "view_flag": "all",
-    "exclude_flag": null,
-    "disable_sound": 1,
-    "disable_order": 0,
-    "play_sound_name": null,
-    "trigger_ad": [
-      "vip"
-    ],
-    "display_type": 0,
-    "on_dead": 0,
-    "position_x": null,
-    "position_y": null,
-    "only_in_warmup": 0,
-    "only_spec": 0,
-    "disable_interval": 0
-  },
-  {
-    "id": 7,
-    "message": " \n {RED}» Discord: {WHITE} discord.gg/runaway\n ",
-    "server_mode": "all",
-    "map": null,
-    "interval_seconds": 60,
-    "view_flag": "all",
-    "exclude_flag": null,
-    "disable_sound": 1,
-    "disable_order": 0,
-    "play_sound_name": null,
-    "trigger_ad": [
-      "discord",
-      "dc"
-    ],
-    "display_type": 0,
-    "on_dead": 0,
-    "position_x": null,
-    "position_y": null,
-    "only_in_warmup": 0,
-    "only_spec": 0,
-    "disable_interval": 0
-  }
-]
+  "props": [
+    {
+      "map": "de_dust2",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "1616.5 2444.6 118.4",
+      "ang": "0 270 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_dust2",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "-1434.7 2829.9 90.3",
+      "ang": "0 -30 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_dust2",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "-176.9 293.5 85.4",
+      "ang": "0 180 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_dust2",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "-357.9 -1066.5 172.7",
+      "ang": "0 180 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_mirage",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "-830.4 -1845.1 -68.7",
+      "ang": "0 90 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_mirage",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "-2171.4 -262.5 -80.7",
+      "ang": "0 180 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_mirage",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "-329.9 -949.5 -82.9",
+      "ang": "0 180 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_mirage",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "1268.3 550.5 -179.8",
+      "ang": "0 0 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_inferno",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "2419.5 462.0 233.8",
+      "ang": "0 270 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_inferno",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "-13.5 2870.2 244.2",
+      "ang": "0 90 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_inferno",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "1038.5 827.3 177.3",
+      "ang": "0 270 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_inferno",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "-1745.5 544.0 61.4",
+      "ang": "0 90 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_nuke",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "2643.8 -265.5 -268.8",
+      "ang": "0 0 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_nuke",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "325.5 -642.4 -685.0",
+      "ang": "0 90 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_nuke",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "2467.3 -552.5 -252.8",
+      "ang": "0 167 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_nuke",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "-1816.8 -838.5 -316.8",
+      "ang": "0 0 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_overpass",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "-2584.3 1174.7 567.2",
+      "ang": "0 59 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_overpass",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "-1170.0 510.5 136.3",
+      "ang": "0 0 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_overpass",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "-1279.0 -501.1 100.2",
+      "ang": "0 -5 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_overpass",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "-670.0 -2779.9 251.6",
+      "ang": "0 225 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_train",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "248.9 644.5 -132.8",
+      "ang": "0 0 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_train",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "1480.8 -989.5 -244.8",
+      "ang": "0 0 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_train",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "85.2 -282.5 -132.8",
+      "ang": "0 180 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_train",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "-2193.5 1447.9 -88.8",
+      "ang": "0 90 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_vertigo",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "-258.0 -64.5 11859.2",
+      "ang": "0 0 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_vertigo",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "-1935.1 498.5 11859.2",
+      "ang": "0 180 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_vertigo",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "-1295.5 -403.8 11859.2",
+      "ang": "0 270 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_vertigo",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "-1634.8 -998.5 11571.2",
+      "ang": "0 0 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_ancient",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "-1491.1 983.5 139.2",
+      "ang": "0 0 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_ancient",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "1078.7 408.6 212.8",
+      "ang": "0 1 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_ancient",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "-700.0 -489.4 129.2",
+      "ang": "0 90 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_ancient",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "-750.5 -2174.7 -45.5",
+      "ang": "0 90 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_ancient_night",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "-1491.1 983.5 139.2",
+      "ang": "0 0 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_ancient_night",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "1078.7 408.6 212.8",
+      "ang": "0 1 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_ancient_night",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "-700.0 -489.4 129.2",
+      "ang": "0 90 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_ancient_night",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "-750.5 -2174.7 -45.5",
+      "ang": "0 90 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_cache",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "-438.5 2041.9 1771.2",
+      "ang": "0 90 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_cache",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "-188.4 -1541.0 1806.3",
+      "ang": "0 180 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_cache",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "1023.5 1017.3 1709.5",
+      "ang": "0 90 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_cache",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "2817.0 -431.5 1696.6",
+      "ang": "0 180 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_anubis",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "1818.5 1243.5 -62.8",
+      "ang": "0 270 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_anubis",
+      "model": "models/runaway/tradeit_16x9.vmdl",
+      "pos": "-1069.4 235.5 60.2",
+      "ang": "0 180 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_anubis",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "-1371.3 824.5 121.2",
+      "ang": "0 0 0",
+      "scale": 0.6,
+      "group": 0,
+      "immune": "@css/vip"
+    },
+    {
+      "map": "de_anubis",
+      "model": "models/runaway/tradeit_1x1.vmdl",
+      "pos": "69.0 -1157.5 84.2",
+      "ang": "0 0 0",
+      "scale": 0.6,
+      "group": 1,
+      "immune": "@css/vip"
+    }
+  ]
+}
