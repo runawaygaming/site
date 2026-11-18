@@ -352,6 +352,11 @@
       "type": "Deathmatch"
     },
     {
+      "id": "5x5",
+      "ip": "213.146.184.2:27014",
+      "type": "Pro/Pub"
+    },
+    {
       "id": "Surf Timer | Tier 1-2",
       "ip": "185.171.25.76:27015",
       "type": "Surf"
