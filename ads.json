@@ -2,61 +2,109 @@
   "messages": [
     {
       "id": 1,
-      "msg": " \n{GREEN}runawaytr.com {WHITE}sitesinden skin seçip oyun içinde !wp yazarak skin ve bıçak alabilirsiniz!\n ",
+      "msg": "{RED}→ {GOLD}Kontrol Paneli {DARKGREY}| {WHITE}Skin, profil, tüm ayarlar ve kurallar tek ekranda!\n   {DARKGREY}↳ {WHITE}Sohbete {GREEN}!panel {WHITE}yazarak interaktif menüyü açabilirsin.",
       "ip": "",
-      "cmd": "skin",
+      "cmd": "",
       "immune": "",
-      "delay": 40
+      "delay": 35
     },
     {
       "id": 2,
-      "msg": " \n{GREEN}TRADEIT {WHITE}| {GOLD}RUNAWAY {WHITE}kodunu kullan, {GREEN}$5.00 BONUS {WHITE}kazan! {GREEN}tradeit.gg\n{GREEN}TRADEIT {WHITE}| Use code {GOLD}RUNAWAY {WHITE}for a {GREEN}$5.00 BONUS{WHITE}! {GREEN}tradeit.gg\n ",
-      "ip": "",
-      "cmd": "tradeit",
-      "immune": "@css/vip",
-      "delay": 60
-    },
-    {
-      "id": 3,
-      "msg": " \n {RED}Ayrıcalıklardan yararlanmak için web sitemizden VIP alın: {GREEN} www.runawaytr.com\n ",
+      "msg": "{RED}→ {GOLD}HUD Düzenleme {DARKGREY}| {WHITE}Ekranındaki göstergeleri dilediğin gibi özelleştir!\n   {DARKGREY}↳ {WHITE}Sohbete {GREEN}!hud {WHITE}yazarak sana özel ekran tasarımını seç.",
       "ip": "",
       "cmd": "",
       "immune": "",
       "delay": 40
     },
     {
-      "id": 4,
-      "msg": "\n {RED}RUNAWAY | {WHITE} {hostname} Sunucusu\n  {GREEN}IP: {WHITE} {ip}\n",
+      "id": 3,
+      "msg": "{RED}→ {GOLD}Skin & Bıçak {DARKGREY}| {WHITE}Sitemizden dilediğin skini seç, oyunda {GREEN}!wp {WHITE}yaz!\n   {DARKGREY}↳ {WHITE}Tüm bıçak ve eldivenler ücretsiz: {GREEN}runawaytr.com",
       "ip": "",
-      "cmd": "ip",
+      "cmd": "skin,wp",
       "immune": "",
       "delay": 40
     },
     {
-      "id": 5,
-      "msg": " \n {RED}✔ Discord sunucumuzdan ADMIN başvurusu yapabilirsiniz!\n{GOLD}» Discord: {GREEN} discord.gg/runaway\n ",
+      "id": 4,
+      "msg": "{RED}→ {GOLD}Tradeit.gg {DARKGREY}| {WHITE}Resmi iş birliğiyle bedava {GREEN}$5.00 BONUS {WHITE}kazan!\n   {DARKGREY}↳ {WHITE}Promosyon Kodu: {GOLD}RUNAWAY {DARKGREY}• {GREEN}tradeit.gg",
       "ip": "",
-      "cmd": "admin",
+      "cmd": "tradeit",
+      "immune": "@css/vip",
+      "delay": 50
+    },
+    {
+      "id": 5,
+      "msg": "{RED}→ {GOLD}TeamSpeak 3 {DARKGREY}| {WHITE}Düşük gecikmeli sesli iletişim ve klan odaları için:\n   {DARKGREY}↳ {GREEN}ts.runawaytr.com",
+      "ip": "",
+      "cmd": "ts,ts3,teamspeak",
       "immune": "",
       "delay": 40
     },
     {
       "id": 6,
-      "msg": " \n {RED}★ Sunucularımızın tamamında geçerli VIP üyelik aylık sadece 200 TL! \n{GREEN} www.runawaytr.com\n ",
+      "msg": "{RED}→ {GOLD}VIP Üyelik {DARKGREY}| {WHITE}Tüm sunucularda geçerli özel avantajlar:\n   {DARKGREY}↳ {WHITE}VIP paketlerini incele: {GREEN}runawaytr.com",
       "ip": "",
       "cmd": "vip",
+      "immune": "",
+      "delay": 45
+    },
+    {
+      "id": 7,
+      "msg": "{RED}→ {GOLD}Yetkili Alımı {DARKGREY}| {WHITE}RunAway kadrosunda yer almak ister misin?\n   {DARKGREY}↳ {WHITE}Discord üzerinden başvur: {GREEN}discord.gg/runaway",
+      "ip": "",
+      "cmd": "admin,yetkili",
       "immune": "",
       "delay": 40
     },
     {
-      "id": 7,
-      "msg": " \n {RED}» Discord: {WHITE} discord.gg/runaway\n ",
+      "id": 8,
+      "msg": "{RED}→ {GOLD}Yetkili Alımı {DARKGREY}| {WHITE}Sunucumuzda aktif ve saygılı yetkililer arıyoruz!\n   {DARKGREY}↳ {WHITE}Forum üzerinden başvurunu yap: {GREEN}forum.runawaytr.com",
+      "ip": "",
+      "cmd": "basvuru",
+      "immune": "",
+      "delay": 45
+    },
+    {
+      "id": 9,
+      "msg": "{RED}→ {GOLD}Discord {DARKGREY}| {WHITE}Çekilişler, topluluk sohbeti ve yetkili destek kanalları:\n   {DARKGREY}↳ {GREEN}discord.gg/runaway",
       "ip": "",
       "cmd": "discord,dc",
       "immune": "",
       "delay": 40
+    },
+    {
+      "id": 10,
+      "msg": "{RED}→ {GOLD}Rapor & Destek {DARKGREY}| {WHITE}Hileci veya toksik oyuncuları Discord'dan anında bildir!\n   {DARKGREY}↳ {WHITE}Yetkililerimiz hızlıca müdahale etsin: {GREEN}!rapor",
+      "ip": "",
+      "cmd": "",
+      "immune": "",
+      "delay": 45
+    },
+    {
+      "id": 11,
+      "msg": "{RED}→ {GOLD}Sunucu Bilgisi {DARKGREY}| {WHITE}Şu an {GOLD}{hostname} {WHITE}sunucusundasın!\n   {DARKGREY}↳ {GREEN}Bağlantı IP: {WHITE}{ip}",
+      "ip": "",
+      "cmd": "ip",
+      "immune": "",
+      "delay": 50
+    },
+    {
+      "id": 12,
+      "msg": "{RED}→ {GOLD}Sıralama & Rank {DARKGREY}| {WHITE}Sunucu rank durumunu ve oyuncu istatistiklerini takip et:\n   {DARKGREY}↳ {WHITE}Web Sitesi: {GREEN}runawaytr.com",
+      "ip": "",
+      "cmd": "rank,stats,site",
+      "immune": "",
+      "delay": 45
+    },
+    {
+      "id": 13,
+      "msg": "{RED}→ {GOLD}Oyun Kuralları {DARKGREY}| {WHITE}Tüm sunucu kurallarımızı menü üzerinden okuyabilirsin!\n   {DARKGREY}↳ {WHITE}Kuralları görüntülemek için: {GREEN}!panel",
+      "ip": "",
+      "cmd": "kurallar",
+      "immune": "",
+      "delay": 50
     }
-  ],
+  ]
   "hud": {
     "enabled": true,
     "ip": "",
