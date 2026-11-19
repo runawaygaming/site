@@ -74,7 +74,7 @@
     },
     {
       "id": 10,
-      "msg": "{RED}→ {GOLD}Rapor & Destek {GREY}| {WHITE}Hileci veya toksik oyuncuları Discord'dan anında bildir!\n   {GREY}↳ {WHITE}Yetkililerimiz hızlıca müdahale etsin: {GREEN}!rapor",
+      "msg": "{RED}→ {GOLD}Rapor & Destek {GREY}| {WHITE}Hileci veya toksik oyuncuları anında bildir!\n   {GREY}↳ {WHITE}Yetkililerimiz hızlıca müdahale etsin: {GREEN}!rapor",
       "ip": "",
       "cmd": "",
       "immune": "",
